@@ -1,0 +1,445 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: 'Abel', sans-serif;
+	font-size: 18px;
+	color: #5B5B5B;
+}
+
+#ust {
+	width: 100%;
+	height: 40px;
+	background-color: rgb(241, 83, 109);
+}
+
+#bütün-sayfa {
+	width: 100%;
+	height: 100%;
+}
+
+#baslik-alani {
+	overflow: hidden;
+	height: auto;
+}
+
+#baslik {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 0px 0px;
+}
+
+#arama-alani {
+	position: absolute;
+	overflow: hidden;
+	width: 1000px;
+	height: 150px;
+	margin-top: 80px;
+}
+
+#arama-alani button {
+	height: 29px;
+	background-color: rgb(241, 83, 109);
+	margin-left: -40px;
+	position: absolute;
+	border-radius: 0px 15px 15px 0;
+	z-index: 2;
+}
+
+#arama {
+	height: 30px;
+	width: 250px;
+	border-radius: 15px;
+}
+
+#sag-ust-link {
+	position: absolute;
+	right: 0%;
+	color: black;
+	overflow: hidden;
+	/* margin-top: 80px; */
+}
+
+#sag-ust-link ul {
+	float: right;
+	margin: 0;
+	padding: 50px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#sag-ust-link li {
+	float: left;
+	padding: 0px 0px 0px 0px;
+}
+
+#sag-ust-link a {
+	display: block;
+	margin-right: 1px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #12212F;
+	border: none;
+}
+
+#sag-ust-link .suanki-sayfa a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#sag-ust-link a:hover {
+	text-decoration: none;
+	color: #666666;
+	text-shadow: 1px 1px rgb(26, 22, 22);
+}
+
+#sag-ust-link .suanki-sayfa a {
+	background: #132434;
+	border-radius: 5px;
+}
+
+/* Logo */
+
+#logo {
+	display: flex;
+	justify-content: center;
+
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+
+}
+
+
+#logo h1 {
+	line-height: 120px;
+	letter-spacing: -2px;
+	font-size: 3em;
+}
+
+#logo h1 a {
+	color: #12212F;
+}
+
+#logo p {
+	margin: 0;
+	padding: 0px 0 0 0px;
+	letter-spacing: -1px;
+	font: normal 18px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #8E8E8E;
+}
+
+#logo p a {
+	color: #8E8E8E;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #12212F;
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+	width: 500px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	float: right;
+	margin: 0;
+	padding: 50px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	padding: 0px 0px 0px 0px;
+}
+
+#menu a {
+	display: block;
+	margin-right: 1px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #12212F;
+	border: none;
+}
+
+#menu .suanki-sayfa a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	color: #666666;
+	text-shadow: 1px 1px rgb(26, 22, 22);
+}
+
+#menu .suanki-sayfa a {
+	background: #132434;
+	border-radius: 5px;
+}
+
+
+#banner {
+	margin: 0px auto;
+	width: 100%;
+	height: 150px;
+	background-color: rgb(250, 250, 250);
+}
+
+.content {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#icerik {
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 0;
+	margin-bottom: 20px;
+
+	align-items: center;
+}
+
+#manset {
+	margin-top: 5px;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+#turler {
+	width: 90%;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+#turler img {
+	width: auto;
+	height: 400px;
+	border-radius: 50%;
+	border-color: black;
+
+
+}
+
+#turler img:hover {
+	filter: drop-shadow(0 0 2px whitesmoke) drop-shadow(0 0 2px rgb(232, 151, 151)) drop-shadow(0 0 2px whitesmoke);
+}
+
+
+
+
+
+#urunler {
+	display: flex;
+	flex-direction: column;
+	margin-top: 150px;
+	justify-content: center;
+	width: 80%;
+}
+
+#urunler p {
+	position: relative;
+	z-index: 3;
+	display: flex;
+	justify-content: center;
+	background-color: rgba(84, 83, 83, 0.5);
+	color: white;
+	border-radius: 10px;
+	height: 20px;
+	width: 30%;
+	margin-top: -10px;
+	margin-left: 35%;
+}
+
+
+#urunler img {
+	width: 100%;
+	height: 100%;
+}
+
+
+#urunler img:hover {
+	filter: drop-shadow(0 0 2px black) drop-shadow(0 0 2px black)drop-shadow(0 0 2px black) blur(0.5px);
+
+	width: 110%;
+	height: 110%;
+}
+
+#ust-giyim {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+#alt-giyim {
+	display: flex;
+	flex-direction: row;
+	top: 0;
+	justify-content: space-between;
+
+}
+
+#dis-giyim {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#yelek-giyim {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 250px;
+}
+
+.urun-1 {
+	background-color: red;
+	float: left;
+	width: 30%;
+}
+
+.urun-2 {
+	background-color: red;
+	float: left;
+	width: 30%;
+}
+
+.urun-3 {
+	background-color: red;
+	float: left;
+	width: 30%;
+}
+
+#alt {
+	display: flex;
+	justify-content: center;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background-color: whitesmoke;
+	text-align: center;
+	color: black;
+}
+
+
+#hakkimizda {
+	display: flex;
+	flex-direction: column;
+	margin-top: 150px;
+	justify-content: flex-start;
+	width: 80%;
+
+}
+
+#hakkimizda img {
+	width: 30px;
+	height: 30px;
+	margin-bottom: -10px;
+	filter: none !important;
+	box-shadow: none !important;
+}
+
+#hakkimizda p {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	min-width: 250px;
+	max-width: 450px;
+	align-items: center;
+}
+
+#hakkimizda a {
+	text-decoration: none;
+}
+
+#iletisim {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 80%;
+}
+
+#iletisim-form {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	float: left;
+	width: 300px;
+
+}
+
+#iletisim-alan label {
+	font-weight: bold;
+	color: #000000;
+}
+
+#iletisim-alan input {
+	width: 250px;
+	margin: 20px 0;
+}
+
+#iletisim-alan textarea {
+	width: 250px;
+	margin: 20px 0;
+}
+
+#adres-alan {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 80%;
+}
+
+.adres img {
+	width: 30px;
+	height: 30px;
+	margin-bottom: -10px;
+
+	filter: none !important;
+	box-shadow: none !important;
+}
+
+.adres p {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	align-items: center;
+}
+
+.adres a {
+	text-decoration: none;
+}
